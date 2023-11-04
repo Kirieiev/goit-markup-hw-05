@@ -741,9 +741,6 @@ input {
   cursor: pointer;
   fill: transparent;
   margin-right: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .policy-link {
@@ -761,11 +758,12 @@ input {
   .modal-own-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
-  border: #404bbf;
+  border: none;
 }
 
 .modal-form-checkbox-field + .modal-form-checkbox-label .modal-own-checkbox {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
