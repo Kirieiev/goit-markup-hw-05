@@ -761,7 +761,7 @@ input {
   .modal-own-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
-  border: #404bbf;
+  border: none;
 }
 
 .modal-form-checkbox-field + .modal-form-checkbox-label .modal-own-checkbox {
